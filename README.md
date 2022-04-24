@@ -26,6 +26,14 @@ A little list I've put together while learning git & gh commands. I've also incl
 | gh auth login                              |  used to set up your authentication token                                         |
 
 
+# Connecting to Remote Repository
+
+| Command                                                                  |  Descriptions                                                                  |
+| -----------------------------------                                      |    -------------------------------------------
+| git remote set-url origin `https://github.com/username/repository.git`   |   connect to remote repository via https protocol                              |
+| git remote set-url origin `git@github.com:username/repository.git`       |   connect to remote repository via ssh protocol                                |
+
+
 # Creating & Managing Repositories 
 
 | Command                                      |  Description
@@ -33,7 +41,7 @@ A little list I've put together while learning git & gh commands. I've also incl
 | gh repo create                               |  creates a new repository                                                                  |
 | git add [file name]                          |  creates a new file (if the file name has spaces wrap in quotation marks(i.e; "file name") |
 | cd [folder name] && git init && git add .    |  adds the contents of an entire folder                                                     |
-| git commit                                   |  saves the changes made to the repository                                                  |
+| git commit -m [commit message]               |  saves the changes made to the repository with a git commit message                        |
 | git push                                     |  uploads content to remote repository                                                      |
 | git fetch                                    |  downloads content from remote repository                                                  |
 | gh repo view [repo name]                     |  view contents of repository  
