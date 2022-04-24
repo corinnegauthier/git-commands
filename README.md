@@ -1,7 +1,7 @@
 # Git Cheat Sheet
 
 
-A little list I've put together while learning git & gh commands. I've also included commands used to install git via cli ☺️
+A little list I've put together while learning git & gh commands. I've also included the commands used to install git & github cli ☺️
 
 
 # Installation
