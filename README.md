@@ -19,19 +19,19 @@ A little list I've put together while learning git & gh commands. I've also incl
 
 # Initial Set Up
 
-|   Command                                  |       Description                                                                |
+|   Command                                  |       Description                                                                        |
 | -------------------------                  | -----------------------------
-| git config --global user.name [username]   |  sets your username in git (does not need to be the same as your github username)|
-| git config --global user.email [email]     |  sets your commit email address in git                                           |
-| gh auth login                              |  used to set up your authentication token                                         |
+| git config --global user.name [username]   |  sets your username in git (does not need to be the same as your github username)        |
+| git config --global user.email [email]     |  sets your commit email address in git                                                   |
+| gh auth login                              |  used to set up your authentication token                                                |
 
 
 # Connecting to Remote Repository
 
-| Command                                                                  |  Descriptions                                                                  |
-| -----------------------------------                                      |    -------------------------------------------
-| git remote set-url origin `https://github.com/username/repository.git`   |   connect to remote repository via https protocol                              |
-| git remote set-url origin `git@github.com:username/repository.git`       |   connect to remote repository via ssh protocol                                |
+| Command                                                                       |  Descriptions                                                                  |
+| -----------------------------------                                           |    -------------------------------------------
+| git remote set-url [repo name] `https://github.com/username/repository.git`   |   connect to remote repository via https protocol           |                            
+| git remote set-url [repo name] `git@github.com:username/repository.git`       |   connect to remote repository via ssh protocol             |                               
 
 
 # Creating & Managing Repositories 
