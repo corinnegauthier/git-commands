@@ -39,11 +39,11 @@ A little list I've put together while learning git & gh commands. I've also incl
 | Command                                      |  Description
 | ------------------------------------------   | -----------------------------                                                              |
 | gh repo create                               |  creates a new repository                                                                  |
-| git add [file name]                          |  creates a new file (if the file name has spaces wrap in quotation marks(i.e; "file name") |
+| git add [file name]                          |  creates a new file (if the file name has spaces wrap in quotation marks i.e; "file name") |
 | cd [folder name] && git init && git add .    |  adds the contents of an entire folder                                                     |
 | git commit -m [commit message]               |  saves the changes made to the repository with a git commit message                        
-| git push                                     |  uploads content to remote repository    
-| git -f push                                  |  force uploads content to remote repository                                                |
-| git pull                                     |  updates the remote repository                
-| git fetch                                    |  downloads content from remote repository 
+| git push [remote name] [branch name]         |  uploads content to remote repository    
+| git -f push [remote name] [branch name]      |  force uploads content to remote repository                                                |
+| git pull [remote name] [branch name]         |  updates the remote repository                
+| git fetch [remote name] [branch name]        |  downloads content from remote repository 
 | gh repo view [repo name]                     |  view contents of repository  
